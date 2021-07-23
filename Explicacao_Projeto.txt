@@ -1,0 +1,16 @@
+Para a primeira ilustração e iniciação de nosso projeto, criamos três tabelas com as seguintes informações:
+
+1. tb_postagem
+Será nossa primeira tabela e servirá para armazenar informações. Serão matérias, links e a identificação de quem fez a inserção. 
+
+Dados: Id | Título | Link | Plataforma_de_retirada | Autor | data_mensagem
+
+2. tb_usuário
+É a nossa segunda tabela e armazena os dados cadastrais dos usuários.
+
+Dados: Id | Nome_completo | Data_de_nascimento | Telefone | Senha
+
+3. tb_tema
+Será a tabela que servirá de repositório para o projeto de um fórum colaborativo, contendo o seguinte:
+
+Dados: Id | Autor | Título | Texto | Link | id_usuario
